@@ -122,12 +122,164 @@ a {
     ここに記載したCSSは上書きされる
     そのため色を始めとした上書きを必要としないものは記載しない
     */
+
+    .main-contents {
+        width: 900px;
+    }
+
+    .time-table1 {
+        width: 900px;
+        height: 650px;
+    }
+
+    .time-table2 {
+        width: 900px;
+        height: 650px;
+    }
+
+    .time-table3 {
+        width: 900px;
+        height: 650px;
+    }
+
+    .kikaku-wrapper {
+        margin: 20px;
+        padding: 35px 20px 0px 20px;
+        height: 300px;
+        width: 220px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 10px 2px #d0cec6;
+    }
+
+    h1 {
+        font-size: 21px;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 17px;
+        margin: 5px 5px 20px 5px;
+    }
+
+    .kikaku-setsumei {
+        display: flex;
+    }
+
+    .tab_item {
+        display: none;
+    }
+
+    .is-active-item {
+        display: block;
+    }
+
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .tab_btn {
+        padding: 24px 5px 5px 5px;
+        width: 120px;
+        height: 50px;
+        border-bottom: solid 1px #E0F2F7;
+        display: inline-block;
+        font-size: 25px;
+        border-radius: 15px 15px 0 0;
+        border-top: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .is-active-btn {
+        border-bottom: solid 1px #E0F2F7;
+    }
+
 }
 
 @media screen and (max-width: 559px) {
+
     /* スマホレイアウト */
     /*
     ここに記載したCSSは上書きされる
     そのため色を始めとした上書きを必要としないものは記載しない
     */
+    .main-contents {
+        width: 270px;
+    }
+
+    .time-table1 {
+        width: 270px;
+        height: 195px;
+    }
+
+    .time-table2 {
+        width: 270px;
+        height: 195px;
+    }
+
+    .time-table3 {
+        width: 270px;
+        height: 195px;
+    }
+
+    .kikaku-setsumei {
+        display: block;
+    }
+
+    .kikaku-wrapper {
+        margin: 15px;
+        padding: 15px 12px 0px 12px;
+        height: 170px;
+        width: 220px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 10px 2px #d0cec6;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 15px;
+        margin: 5px 5px 20px 5px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .tab_item {
+        display: none;
+    }
+
+    .is-active-item {
+        display: block;
+    }
+
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .tab_btn {
+        padding: 10px 5px 5px 5px;
+        width: 75px;
+        height: 25px;
+        border-bottom: solid 1px #E0F2F7;
+        display: inline-block;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 15px 15px 0 0;
+        border-top: solid 1px;
+        border-right: solid 1px;
+        border-left: solid 1px;
+    }
+
+    .is-active-btn {
+        border-bottom: solid 1px #E0F2F7;
+    }
 }
