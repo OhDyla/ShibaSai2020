@@ -62,8 +62,12 @@ p {
     color: red;
 }
 
-.kikaku-setsumei {
+.pc-firstline {
     display: flex;
+}
+
+.tablet-firstline .tablet-secondline {
+    display: initial;
 }
 
 .tab_item {
@@ -124,30 +128,30 @@ a {
     */
 
     .main-contents {
-        width: 900px;
+        width: 550px;
     }
 
     .time-table1 {
-        width: 900px;
-        height: 650px;
+        width: 550px;
+        height: 400px;
     }
 
     .time-table2 {
-        width: 900px;
-        height: 650px;
+        width: 550px;
+        height: 400px;
     }
 
     .time-table3 {
-        width: 900px;
-        height: 650px;
+        width: 550px;
+        height: 400px;
     }
 
     .kikaku-wrapper {
         margin: 20px;
-        padding: 35px 20px 0px 20px;
-        height: 300px;
-        width: 220px;
-        border-radius: 20px;
+        padding: 30px 15px 0px 15px;
+        height: 180px;
+        width: 300px;
+        border-radius: 17px;
         box-shadow: 4px 4px 10px 2px #d0cec6;
     }
 
@@ -161,8 +165,8 @@ a {
         margin: 5px 5px 20px 5px;
     }
 
-    .kikaku-setsumei {
-        display: flex;
+    .pc-firstline {
+        display: initial;
     }
 
     .tab_item {
@@ -182,18 +186,11 @@ a {
     .tab_btn {
         padding: 24px 5px 5px 5px;
         width: 120px;
-        height: 50px;
+        height: 40px;
         border-bottom: solid 1px #E0F2F7;
         display: inline-block;
         font-size: 25px;
         border-radius: 15px 15px 0 0;
-        border-top: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
-    }
-
-    .is-active-btn {
-        border-bottom: solid 1px #E0F2F7;
     }
 
 }
@@ -224,7 +221,7 @@ a {
         height: 195px;
     }
 
-    .kikaku-setsumei {
+    .pc-firstline {
         display: block;
     }
 
@@ -274,12 +271,6 @@ a {
         font-size: 25px;
         text-align: center;
         border-radius: 15px 15px 0 0;
-        border-top: solid 1px;
-        border-right: solid 1px;
-        border-left: solid 1px;
     }
 
-    .is-active-btn {
-        border-bottom: solid 1px #E0F2F7;
-    }
 }
