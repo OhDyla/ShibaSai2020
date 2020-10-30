@@ -276,7 +276,7 @@ p2 {
 
     bookshelf,
     bookshelf-bottom {
-        padding: 30px 0px 0px 0px;
+        padding-top: 30px;
 
     }
 
@@ -284,6 +284,7 @@ p2 {
         background: linear-gradient(to top, #ffdab9, #ffebcd);
 
     }
+
 
     .group-wrapper,
     .group-wrapper-blank,
