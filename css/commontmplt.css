@@ -149,7 +149,7 @@ nav li a:hover {
 */
 
 .main-contents {
-
+    padding: 0 auto 50px auto;
     grid-column: 3;
     grid-row: 1/-1;
 }
@@ -337,7 +337,6 @@ footer a:hover {
     */
 
     .main-contents {
-        width: 550px !important;
         grid-column: 3;
         grid-row: 1/-1;
     }
